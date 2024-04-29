@@ -18,9 +18,9 @@ namespace MCDotNetCore.ConsoleApp
             Edit(1);
             //Create("New Blog", "Author 1", "Content 1");
             // Update(1, "Blog 1", "Author 1", "Content 1");
-            Delete(2);
+            //Delete(2);
 
-        }
+         }
         private void Read()
         {
            using IDbConnection db = new SqlConnection(ConnectionString.sqlConnectionStringBuilder.ConnectionString);

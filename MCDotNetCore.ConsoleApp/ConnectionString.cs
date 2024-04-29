@@ -14,7 +14,8 @@ namespace MCDotNetCore.ConsoleApp
             DataSource = "DESKTOP-SO9GMR6", //Server Name
             InitialCatalog = "DotnetTrainingBatch4", //DB Name
             UserID = "sa",
-            Password = "sa@123"
+            Password = "sa@123",
+            TrustServerCertificate = true
         };
       
     }
