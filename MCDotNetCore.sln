@@ -3,12 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCDotNetCore.ConsoleApp", "MCDotNetCore.ConsoleApp\MCDotNetCore.ConsoleApp.csproj", "{350BD3E3-0B3A-461F-A072-7362EFA52DEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCDotNetCore.ConsoleApp", "MCDotNetCore.ConsoleApp\MCDotNetCore.ConsoleApp.csproj", "{350BD3E3-0B3A-461F-A072-7362EFA52DEA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{F5CEAA04-6B6B-465F-A4C4-DC599157CAE3}"
 	ProjectSection(SolutionItems) = preProject
+		DotNetTrainingBatch4DBScript.sql = DotNetTrainingBatch4DBScript.sql
 		README.MD = README.MD
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCDotNetCore.RestApi", "MCDotNetCore.RestApi\MCDotNetCore.RestApi.csproj", "{1C2B47FC-F468-4D0F-B193-2551B61B630D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +23,10 @@ Global
 		{350BD3E3-0B3A-461F-A072-7362EFA52DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{350BD3E3-0B3A-461F-A072-7362EFA52DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{350BD3E3-0B3A-461F-A072-7362EFA52DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2B47FC-F468-4D0F-B193-2551B61B630D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2B47FC-F468-4D0F-B193-2551B61B630D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2B47FC-F468-4D0F-B193-2551B61B630D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2B47FC-F468-4D0F-B193-2551B61B630D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
