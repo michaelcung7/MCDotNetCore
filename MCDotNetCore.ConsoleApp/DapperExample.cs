@@ -111,7 +111,7 @@ namespace MCDotNetCore.ConsoleApp
             {
                 BlogId = id
             };
-            string query = @"select * from tbl_blog where BlogId=@BlogId";
+            string query = @"delete  from tbl_blog where BlogId=@BlogId";
             using IDbConnection db = new SqlConnection(ConnectionString.sqlConnectionStringBuilder.ConnectionString);
             int result = db.Execute(query, item);
 
