@@ -156,10 +156,19 @@ namespace MCDotNetCore.RestApi.Controllers
              WHERE BlogId = @BlogId";
 
             SqlCommand cmd = new SqlCommand(query, connection);
-            cmd.Parameters.AddWithValue("@BlogTitle", blog.BlogTitle);
             cmd.Parameters.AddWithValue("@BlogId", id);
-            cmd.Parameters.AddWithValue("@BlogAuthor", blog.BlogAuthor);
-            cmd.Parameters.AddWithValue("@BlogContent", blog.BlogContent);
+            if (!string.IsNullOrEmpty(blog.BlogTitle))
+            {
+                cmd.Parameters.AddWithValue("@BlogTitle", blog.BlogTitle);
+            }
+            if (!string.IsNullOrEmpty(blog.BlogAuthor))
+            {
+                cmd.Parameters.AddWithValue("@BlogAuthor", blog.BlogAuthor);
+            }
+            if (!string.IsNullOrEmpty(blog.BlogContent))
+            {
+                cmd.Parameters.AddWithValue("@BlogContent", blog.BlogContent);
+            }
             int result = cmd.ExecuteNonQuery();
             connection.Close();
 
