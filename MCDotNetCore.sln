@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCDotNetCore.RestApi", "MCDotNetCore.RestApi\MCDotNetCore.RestApi.csproj", "{1C2B47FC-F468-4D0F-B193-2551B61B630D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCDotNetCore.Shared", "MCDotNetCore.Shared\MCDotNetCore.Shared.csproj", "{C8F78B3B-D2F8-4F3F-8608-7C9672EC341B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCDotNetCore.Shared", "MCDotNetCore.Shared\MCDotNetCore.Shared.csproj", "{C8F78B3B-D2F8-4F3F-8608-7C9672EC341B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCDotNetCore.RestApiWithNLayer", "MCDotNetCore.RestApiWithNLayer\MCDotNetCore.RestApiWithNLayer.csproj", "{8F235D9E-9397-4290-A704-F3764002DF41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C8F78B3B-D2F8-4F3F-8608-7C9672EC341B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8F78B3B-D2F8-4F3F-8608-7C9672EC341B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8F78B3B-D2F8-4F3F-8608-7C9672EC341B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F235D9E-9397-4290-A704-F3764002DF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F235D9E-9397-4290-A704-F3764002DF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F235D9E-9397-4290-A704-F3764002DF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F235D9E-9397-4290-A704-F3764002DF41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
