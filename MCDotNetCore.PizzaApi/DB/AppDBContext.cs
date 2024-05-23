@@ -94,3 +94,30 @@ public class PizzaOrderDetailModel
     [Column("PizzaExtraId")]
     public int PizzaExtraId { get; set; }
 }
+
+public class PizzaOrderInvoiceHeadModel
+{
+   public int PizzaOrderId { get; set; }
+   public string PizzaOrderInvoiceNo { get; set; }
+   public int PizzaId { get; set; }
+   public decimal TotalAmount { get; set; }
+    public string Pizza { get; set; }
+    public decimal Price { get; set; }
+
+}
+
+public class PizzaOrderInvoiceDetailModel
+{
+    public int PizzaOrderId { get; set; }
+    public string PizzaOrderInvoiceNo { get; set; }
+    public int PizzaExtraId { get; set; }
+    public string PizzaExtraName { get; set; }
+    public decimal Price { get; set; }
+
+}
+
+public class PizzaOrderResponse
+{
+    public PizzaOrderInvoiceHeadModel Order { get; set; }
+    public List<PizzaOrderInvoiceDetailModel> OrderDetail { get; set; }
+}
