@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCDotNetCore.Shared", "MCDo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCDotNetCore.RestApiWithNLayer", "MCDotNetCore.RestApiWithNLayer\MCDotNetCore.RestApiWithNLayer.csproj", "{8F235D9E-9397-4290-A704-F3764002DF41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCDotNetCore.ConsoleAppHttpClient", "MCDotNetCore.ConsoleAppHttpClient\MCDotNetCore.ConsoleAppHttpClient.csproj", "{774A2E29-7FB9-4813-ACC4-50DC442509B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCDotNetCore.ConsoleAppHttpClient", "MCDotNetCore.ConsoleAppHttpClient\MCDotNetCore.ConsoleAppHttpClient.csproj", "{774A2E29-7FB9-4813-ACC4-50DC442509B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCDotNetCore.PizzaApi", "MCDotNetCore.PizzaApi\MCDotNetCore.PizzaApi.csproj", "{A3BC3705-07D8-4EE0-B983-F66C8AE97A64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{774A2E29-7FB9-4813-ACC4-50DC442509B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{774A2E29-7FB9-4813-ACC4-50DC442509B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{774A2E29-7FB9-4813-ACC4-50DC442509B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BC3705-07D8-4EE0-B983-F66C8AE97A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BC3705-07D8-4EE0-B983-F66C8AE97A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BC3705-07D8-4EE0-B983-F66C8AE97A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BC3705-07D8-4EE0-B983-F66C8AE97A64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
