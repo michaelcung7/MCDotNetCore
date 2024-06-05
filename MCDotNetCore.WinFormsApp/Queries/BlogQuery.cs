@@ -12,5 +12,13 @@
            ,@BlogAuthor
            ,@BlogContent)";
 
+        public static string GetBlogListQuery { get; } = 
+                       @"Select 
+                        [BlogId],
+                        [BlogTitle],
+                        [BlogAuthor],
+                        [BlogContent] 
+                       from Tbl_blog";
+
     }
 }
